@@ -1,0 +1,125 @@
+:root {
+    --link-hover-color: #2196F3;
+    --heading-color: #212121;
+    --paragraph-color: #757575;
+    --logo-font-family: Raleway, sans-serif;
+    --nav-logo-color: #000000;
+    --main-section-backgroud-color: #2F303A;
+    --main-section-text-color: #FFFFFF;
+    --our-team-background-color: #F5F4FA;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.button {
+    cursor: pointer;
+    font-weight: 700;
+    background-color: var(--link-hover-color);
+    color: var(--main-section-text-color)
+}
+
+.logo {
+    font-family: var(--logo-font-family);
+    color: var(--link-hover-color);
+    text-decoration: none;
+    line-height: 2,18;
+}
+.logo-2 {
+    color: var(--nav-logo-color);
+}
+.logo-3{
+    color: var(--main-section-text-color);
+}
+
+
+.main-navigation a {
+    text-decoration: none;
+    color: var(--heading-color);
+    line-height: 1.17;
+}
+.main-navigation a:hover {
+    color: var(--link-hover-color)
+}
+
+
+.contacts a {
+    text-decoration: none;
+    color: var(--paragraph-color);
+    line-height: 1.17;
+}
+.contacts a:hover {
+    text-decoration: underline;
+    color: var(--link-hover-color);
+}
+
+.main-section {
+    background-color: var(--main-section-backgroud-color);
+}
+.main-section-head {
+    font-weight: 900;
+    line-height: 4.28;
+    color:var(--main-section-text-color)
+}
+.main-section-head:hover{
+    text-decoration: underline;
+    text-decoration-color: var(--link-hover-color);
+}
+
+.company-qualities {
+    font-weight: 700;
+    line-height: 1.17;
+    color: var(--heading-color);
+}
+.company-qualities-text {
+    font-weight: 400;
+    line-height: 1.71;
+    color: var(--paragraph-color);
+}
+
+.section-headings {
+    font-weight: 700;
+    line-height: 3,01;
+}
+
+.our-team-section {
+    background-color: var(--our-team-background-color)
+}
+.team-member-card {
+    background-color: var(--main-section-text-color);
+}
+
+.team-member-name {
+    font-weight: 500;
+    line-height: 1.33;
+    color: var(--heading-color);
+}
+.team-member-rank {
+    font-weight: 400;
+    line-height: 1.33;
+    color: var(--paragraph-color);
+}
+
+.footer-section {
+    background-color: var(--main-section-backgroud-color);
+}
+.footer-section a{
+    text-decoration: none;
+}
+.footer-section a:hover{
+    text-decoration: underline;
+}
+.address-section{
+    font-style: normal;
+}
+.address a {
+    color: var(--main-section-text-color);
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 1.17;
+}
