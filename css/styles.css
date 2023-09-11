@@ -7,6 +7,7 @@
     --main-section-backgroud-color: #2F303A;
     --main-section-text-color: #FFFFFF;
     --our-team-background-color: #F5F4FA;
+    --portfolio-background-color: #EEEEEE;
 }
 
 body {
@@ -18,6 +19,9 @@ ul {
 }
 
 .button {
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
     cursor: pointer;
     font-weight: 700;
     background-color: var(--link-hover-color);
@@ -29,24 +33,34 @@ ul {
     color: var(--link-hover-color);
     text-decoration: none;
     line-height: 2,18;
+    width:145px; 
+    height:31px;
 }
 .logo-2 {
     color: var(--nav-logo-color);
+    width: 145px;
+    height: 31px;
 }
 .logo-3{
     color: var(--main-section-text-color);
+    width: 145px;
+    height: 31px;
 }
 
 
-.main-navigation a {
+.nav-link {
     text-decoration: none;
     color: var(--heading-color);
     line-height: 1.17;
 }
-.main-navigation a:hover {
+.nav-link :hover {
+    text-decoration: underline;
     color: var(--link-hover-color)
 }
 
+.nav-link-current{
+    color: var(--link-hover-color);
+}
 
 .contacts a {
     text-decoration: none;
@@ -60,8 +74,11 @@ ul {
 
 .main-section {
     background-color: var(--main-section-backgroud-color);
+    width: 1600px;
+    height: 600px;
 }
 .main-section-head {
+    text-decoration: none;
     font-weight: 900;
     line-height: 4.28;
     color:var(--main-section-text-color)
@@ -72,19 +89,24 @@ ul {
 }
 
 .company-qualities {
+    width: 270px;
+    height: 16px;
     font-weight: 700;
-    line-height: 1.17;
     color: var(--heading-color);
+    line-height: 16.41px;
 }
 .company-qualities-text {
+    line-height: 24px;
+    width: 270px;
+    height: 75px;
     font-weight: 400;
-    line-height: 1.71;
     color: var(--paragraph-color);
 }
 
-.section-headings {
+.section-heading {
     font-weight: 700;
-    line-height: 3,01;
+    height: 42px;
+    line-height: 42.19px;
 }
 
 .our-team-section {
@@ -95,17 +117,24 @@ ul {
 }
 
 .team-member-name {
+    width: 145px; 
+    height: 19px;
     font-weight: 500;
-    line-height: 1.33;
-    color: var(--heading-color);
+    line-height: 18.75px;
+    color: var(--heading-color)
+
 }
 .team-member-rank {
+    width:130px; 
+    height:19px;
     font-weight: 400;
     line-height: 1.33;
     color: var(--paragraph-color);
 }
 
 .footer-section {
+    width: 1600px; 
+    height: 251px;
     background-color: var(--main-section-backgroud-color);
 }
 .footer-section a{
@@ -122,4 +151,28 @@ ul {
     font-weight: 400;
     text-decoration: none;
     line-height: 1.17;
+}
+
+.portfolio-button {
+    color: var(--heading-color);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.portfolio-button:hover,:focus{
+    background-color: var(--link-hover-color);
+    color: var(--main-section-text-color);
+}
+.portfolio-section {
+    background-color: var(--portfolio-background-color)
+}
+
+.portofolio-project-name {
+    font-weight: 700;
+    line-height: 36px;
+    color: var(--heading-color);
+}
+.portfolio-project-description{
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--paragraph-color);
 }
