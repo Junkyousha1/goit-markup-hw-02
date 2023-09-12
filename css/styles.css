@@ -6,6 +6,7 @@
     --nav-logo-color: #000000;
     --main-section-backgroud-color: #2F303A;
     --main-section-text-color: #FFFFFF;
+    --main-section-button-hover: #188CE8;
     --our-team-background-color: #F5F4FA;
     --portfolio-background-color: #EEEEEE;
 }
@@ -27,6 +28,9 @@ ul {
     background-color: var(--link-hover-color);
     color: var(--main-section-text-color)
 }
+.button:hover {
+    background-color: var(--main-section-button-hover);
+}
 
 .logo {
     font-family: var(--logo-font-family);
@@ -47,19 +51,19 @@ ul {
     height: 31px;
 }
 
-
 .nav-link {
     text-decoration: none;
     color: var(--heading-color);
     line-height: 1.17;
 }
-.nav-link :hover {
-    text-decoration: underline;
+.nav-link :hover,:active {
+    text-decoration: none;
     color: var(--link-hover-color)
 }
 
 .nav-link-current{
     color: var(--link-hover-color);
+    text-decoration: none;
 }
 
 .contacts a {
@@ -68,7 +72,7 @@ ul {
     line-height: 1.17;
 }
 .contacts a:hover {
-    text-decoration: underline;
+    text-decoration: none;
     color: var(--link-hover-color);
 }
 
@@ -83,10 +87,7 @@ ul {
     line-height: 4.28;
     color:var(--main-section-text-color)
 }
-.main-section-head:hover{
-    text-decoration: underline;
-    text-decoration-color: var(--link-hover-color);
-}
+
 
 .company-qualities {
     width: 270px;
@@ -140,9 +141,7 @@ ul {
 .footer-section a{
     text-decoration: none;
 }
-.footer-section a:hover{
-    text-decoration: underline;
-}
+
 .address-section{
     font-style: normal;
 }
@@ -158,7 +157,7 @@ ul {
     border-radius: 4px;
     cursor: pointer;
 }
-.portfolio-button:hover,:focus{
+.portfolio-button:focus{
     background-color: var(--link-hover-color);
     color: var(--main-section-text-color);
 }
