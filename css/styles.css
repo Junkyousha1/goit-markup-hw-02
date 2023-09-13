@@ -56,10 +56,6 @@ ul {
     color: var(--heading-color);
     line-height: 1.17;
 }
-.nav-link :hover,:active {
-    text-decoration: none;
-    color: var(--link-hover-color)
-}
 
 .nav-link-current{
     color: var(--link-hover-color);
@@ -157,10 +153,12 @@ ul {
     border-radius: 4px;
     cursor: pointer;
 }
-.portfolio-button:focus{
+.portfolio-button:hover,:focus{
     background-color: var(--link-hover-color);
     color: var(--main-section-text-color);
 }
+
+
 .portfolio-section {
     background-color: var(--portfolio-background-color)
 }
